@@ -1,0 +1,371 @@
+*{
+margin: 0;
+font-family: 'Playfair Display', serif;
+font-family: 'Montserrat', sans-serif;
+text-decoration: none;
+
+}
+.header{
+    width: 100%;
+    height: 120px;
+    margin-top: 0px;
+   
+    display: flex;
+    justify-content:space-around;
+    position: sticky;
+    top:0 ;
+    position: absolute;
+    background-color: rgb(217, 217, 217);
+    position: sticky;
+    top:0 ;
+    z-index: 1;
+}
+.header .naveicons a,.user a{
+    color: black;
+}
+.header .user a :hover{
+    color:  rgb(255, 255, 255);
+}
+.header .naveicons a :hover{
+    color:  rgb(255, 255, 255)
+}
+.types{
+    display: flex;
+    
+    
+
+
+}
+.logo{
+  margin: 0px;
+  position: relative;
+  right:60px;
+  padding: 20px;
+}
+.types{
+    padding: 20px;
+    position: relative;
+    left: 160px
+    
+ 
+ 
+
+
+}
+.books{
+
+    padding: 20px 10px;
+    
+}
+#bo {
+    background:  rgb(255, 255, 255);
+    padding: 10px 30px;
+    border: 1px solid black;
+   
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+
+}
+#bo:hover{
+    background-color: rgba(127, 255, 212, 0.414);
+    color: rgb(82, 82, 82);
+    border: none;
+}
+
+#audio{
+    background:  rgb(255, 255, 255);
+    padding: 10px 30px;
+    border: 1px solid black;
+   
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+
+}
+#audio:hover{
+    background-color: rgba(127, 255, 212, 0.414);
+    color: rgb(82, 82, 82);
+    border: none;
+}
+    
+
+.Audiobooks{
+    padding: 20px 10px;
+}
+
+.naveicons{
+   
+ padding: 45px;
+ position: relative;
+ left: 300px;
+ font-size: 25px;
+ 
+
+ 
+ 
+}
+.user{
+    padding: 45px;
+   position: relative;
+    left: 100px;
+    font-size: 30px;
+   
+
+}
+.section1{
+    width: 100%;
+    height: 100vh;
+    
+    position: relative;
+
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation:change 20s infinite ease-in;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url(https://i.postimg.cc/zGJBn9xf/bg-5.png);
+    }
+    20%
+    {
+        background-image: url(https://i.postimg.cc/q7fqYzL1/bg-1.png);
+    } 
+    40%
+    {
+        background-image: url(https://i.postimg.cc/LsdkT4Zp/bg-2.png);
+    } 
+    60%
+    {
+        background-image: url(https://i.postimg.cc/zXyHLmPY/bg-3.png);
+    } 
+    80%
+    {
+        background-image: url(https://i.postimg.cc/zGJBn9xf/bg-5.png);
+    }
+    100%
+    {
+        background-image: url(https://i.postimg.cc/43fJ9VNH/bg-4.png);
+    }
+}
+
+.sect1a{
+    width: 500px;
+    height: 600px;
+   
+    background: linear-gradient(135deg,rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0));
+   position: absolute;
+    left: 100px;
+    top: 80px;
+    border-radius: 40px;
+    box-shadow: 0 2px 30px 0px rgba(114, 106, 106, 0.397);
+    backdrop-filter:blur(6px);
+    border:2px solid rgba(0255, 255, 255, 0.58)
+}
+.sect1a:hover{
+    background-color: rgba(127, 255, 212, 0.414);
+    backdrop-filter:blur(0px);
+
+    
+}
+.sect1a #new{
+    position: absolute;
+    left: 50px;
+   top: 100px;
+    
+   font-size: 60px;
+  
+    font-family: 'Playfair Display', serif;
+    
+}
+.sect1a #trend{
+    position: absolute;
+    left: 50px;
+   top: 150px;
+    
+   font-size: 60px;
+  
+    font-family: 'Playfair Display', serif;
+    
+}
+.sect1a form{
+    position: absolute;
+    left: 50px;
+    top: 150px;
+}
+
+
+.sect1a form input{
+   position: absolute;
+   top: 200px;
+   left: 50px;
+    border: 1px solid black;
+    outline: none;
+    
+    width: 300px;
+    height: 40px;
+   
+    border-radius: 20px;
+}
+.sect1a form button{
+    position: absolute;
+    top: 200px;
+    background:  rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    color: rgb(94, 94, 94);
+}
+.sect1a p{
+    position: absolute;
+    left: 50px;
+    top: 320px;
+
+}
+.section2{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+    background-color:rgb(237, 237, 237);
+  
+
+
+
+}
+#Explore{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.section5{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+    background-color:rgb(237, 237, 237);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+.section3{
+    width: 300px;
+    height: 500px;
+    position: relative;
+    left: 70px;
+    top: 100px;
+   
+    border-radius: 50px;
+  
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 2px 30px 0px rgba(114, 106, 106, 0.297);
+   margin: 25px;
+   float: left;
+   align-items: center;
+   justify-content: space-between;
+   backdrop-filter:blur(6px);
+   border:2px solid rgba(0255, 255, 255, 0.58);
+   transition: .5s;
+   
+   
+
+}
+.section3:hover{
+    background-color: rgba(127, 255, 212, 0.414);
+    backdrop-filter:blur(0px);
+    transition: .5s;
+    
+
+}
+
+
+.section3 h1{
+    position: relative;
+    left: 15px;
+    font-weight: 200;
+}
+.section3 h1:hover{
+    position: relative;
+    left: 15px;
+    font-weight: 400;
+}
+.section3 p{
+    position: relative;
+    left: 15px;
+    font-weight: 100;
+}
+.section3 i{
+    position: relative;
+    left: 85px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.section3 button{
+    position: relative;
+    left: 28px;
+    font-weight: 100;
+    background:  rgb(255, 255, 255);
+    padding: 10px 30px;
+    border: 1px solid black;
+   
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-weight: 500;
+    
+}
+.section3 button:hover {
+    background:   rgba(114, 114, 114, 0.803);
+    border: none;
+
+}
+.section2 h2{
+   position: absolute;
+    bottom: 600px;
+    left: 100px;
+    font-size: 40px;
+
+}
+.section4 p{
+    font-size: 4px;
+}
+.section5 .section3 a{
+    color: rgb(0, 0, 0);
+}
+.section2 .section3 a{
+    color: rgb(0, 0, 0);
+}
+
+
+.section2 .section3:hover img{
+    transform: scale(1.4);
+    transition: .5s;
+}
+.section2 .section3 img{
+    
+    transition: .5s;
+    
+}
+
+.section5 .section3:hover img{
+    transform: scale(1.4);
+    transition: .5s;
+}
+.section5 .section3 img{
+    
+    transition: .5s;
+    
+}
+a{
+    color: black;
+}
+.section4 .foot2 a{
+  margin: 20px;
+}
+.section4 #foot{
+    font-size: 10px;
+}
